@@ -1,6 +1,8 @@
 # Aula Array
 
 A Pen created on CodePen.io. Original URL: [https://codepen.io/carolfern/pen/mdzqRRO](https://codepen.io/carolfern/pen/mdzqRRO).
+*********************
+OS Arrays são estruturas que servem para guardar dados, e organizá-los.
 
 ## Métodos Array books :books:
 
