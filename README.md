@@ -1,10 +1,32 @@
 # Aula Array
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/carolfern/pen/mdzqRRO](https://codepen.io/carolfern/pen/mdzqRRO).
-*********************
-OS Arrays são estruturas que servem para guardar dados, e organizá-los.
 
-## Métodos Array books :books:
+*********************
+Os Arrays são estruturas que servem para guardar dados, e organizá-los.
+Um array serve para guardar os elementos em um espaço da memória. Os espaços de mémórias são chamados de variáveis.
+****
+
+## Como declarar um array?
+Existe duas formas de declara um array, a mais comum é criando uma variável no seguinte modelo:
+```
+var listaDeFrutas = ['Maçãs','Uvas','Bananas','Abacaxi','Morangos'];
+```
+
+
+### Acessando um elemento do array
+```
+var primeiroItem = listaDeFrutas[0]; // Pega o item 'Maçãs'
+var segundoItem = listaDeFrutas[1]; // Pega o item 'Uvas'
+var terceiroItem = listaDeFrutas[2]; // Pega o item 'Bananas'
+```
+```
+listaDeFrutas.forEach(function (item, indice) {
+  console.log(item, indice);
+});
+```
+
+#### Métodos Array books :books:
+
 
 * _unshift_ (adicionar primeiro): Adiciona um ou mais elementos ao início do array: 
 ```
